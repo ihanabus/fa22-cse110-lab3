@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Conceptualization Phase 1 Recap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ira Hanabusa">
+        <link rel="icon" type="image/x-icon" href="/images/html.png">
+    </head>
+    
+    <body>
+        <header>
+            <div>Table of Contents</div>
+            <nav>
+                <ul>
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#unresolved issues">Unresolved Issues</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+        
+        <main>
+            
+            <h1>Conceptualization Phase 1 of <i>The Bigonator</i></h1>
+            <img 
+                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVldGluZyUyMGNsb3dufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
+                alt="meeting table"
+                height="250"
+            >
+            
+            <div id="meeting info">
+                <p><span style="text-decoration:underline">Type of meeting</span><br>
+                    Product Conceptualization
+                </p>
+                <p><span style="text-decoration:underline">Date</span><br>
+                    October 6, 2022
+                </p>
+                <p><span style="text-decoration:underline">Location</span><br>
+                    660 Meet St.<br>
+                    Sunny Clara, CA 99999<br>
+                    Building 2 Unit 12
+                </p>
+            </div>
+
+            <span>
+
+            </span>
+         
+            <h2 id="attendance">Attendance</h2>
+            <ul>
+                <li><input type="checkbox">John Doe</li>
+                <li><input type="checkbox">Steve Jobs</li>
+                <li><input type="checkbox">Bill Gates</li>
+                <li><input type="checkbox">Elon Musk</li>
+                <li><input type="checkbox">Me</li>
+            </ul>
+
+            <h2 id="agenda">Today's Agenda</h2>
+            <img 
+                src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGVib2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
+                alt="whiteboard"
+                height="250"
+            >
+            <ol>
+                <li><input type="checkbox">Lay out the <b>strengths and weaknesses</b> of the product</li>
+                <li><input type="checkbox">Identify <b>exsiting products</b> that can give insight on our own product</li>
+                <li><input type="checkbox">Make note of <b>potential changes</b> to make</li>
+                <li><input type="checkbox">Discuss available <b>budget</b> and note specific cost restraints</li>
+            </ol>
+
+            <h2>Meeting Podcast</h2>
+            <video controls width="750">
+                <source src="/images/recording.mp4">
+            </video>
+
+            <figure>
+                <figcaption>Sound of John Doe tapping the desk during the meeting</figcaption>
+                <audio controls src="/images/sample audio.mp3">
+                </audio>
+            </figure>
+
+            <details>
+                <summary>Audio Transcription</summary>
+                *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap* <br>
+                *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*
+            </details>
+
+            <h2 id="unresolved issues">Unresolved Issues</h2>
+
+            <h3>Since Last Meeting</h3>
+                <ul>
+                    <li>Team size and project scope</li>
+                    <li>Upcoming deadlines</li>
+                    <li>Addressing all of the client specifications</li>
+                </ul>
+
+            <h3>From This Meeting</h3>
+                <ul>
+                    <li>Do <em>not</em> go over budget! (current maximum of <em>30k</em>)</li>
+                    <li>How long will it take to make a prototype?</li>
+                    <li>How will we get user feedback?</li>
+                    <li>Change product name</li>
+                </ul>
+
+            <h2>Q and A</h2>
+            <form>
+                <label for="question">Question: </label>
+                <input type="text" id="question" required><br>
+
+                <label for="details">Elaborate: </label>
+                <input type="text"><br>
+                
+                <input type="submit" value="Post">
+            </form>
+
+            <br>
+
+            <h2>Survey</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Do we change the product name? (currently <i>The Bigonator</i>)</legend>
+                    <input type="checkbox" id="chbx" name="agree" value="change" />
+                    <label for="chbx">Yes, we need to change it</label>
+                </fieldset>
+            </form>
+
+            <br>
+
+            <form>
+                <fieldset>
+                    <legend>Which is a better name?</legend>
+                    <input type="radio" id="biggo" name="name" value="B">
+                    <label for="biggo">Biggo</label><br>
+                    
+                    <input type="radio" id="humongo" name="name" value="H">
+                    <label for="humongo">Humongo</label><br>
+              
+                    <input type="radio" id="gigolo" name="name" value="G" />
+                    <label for="gigolo">Gigolo</label>
+                </fieldset>
+            </form>
+
+            <br>
+
+            <label for="product">Come up with a name for the product:</label><br>
+            <textarea id="product" name="product" rows="1" cols="35"></textarea><br>
+
+
+            <label for="meeting-date">When do you want the next meeting?</label>
+            <input type="date" id="date" name="meeting-date" value="2022-10-07" min="2022-10-07" max="2022-10-21">
+
+            <br>
+
+            <label for="time-preference">At what time should the meeting be?</label>
+            <input list="meeting-times" id="time-preference" name="time-preference">
+
+            <datalist id="meeting-times">
+                <option value="11:30am">
+                <option value="1:00pm">
+                <option value="2:00pm">
+                <option value="3:30pm">
+                <option value="4:30pm">
+            </datalist>
+
+            <br>
+
+            <label for="snack-select">Choose a snack for the next meeting:</label>
+            <select name="snacks" id="snack-select">
+                <option value="">--Please choose an option--</option>
+                <option value="doritos">Doritos</option>
+                <option value="cupcakes">Cupcakes</option>
+                <option value="sandwiches">Sandwiches</option>
+                <option value="donuts">Donuts</option>
+            </select>
+
+            <br>
+
+            <button type="button"> Submit</button>
+            
+        </main>
+
+        <hr>
+        
+        <footer>
+            <strong>DO NOT DISSEMINATE, DISTRIBUTE, OR PUBLICIZE MEETING CONTENTS</strong>
+        </footer>    
+    </body>
+    
+</html>
