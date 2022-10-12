@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[HTML Meeting Minutes](https://ihanabus.github.io/Lab2_Starter/)
+# Lab 3 
+[Updated HTML Meeting Minutes (with CSS)](https://ihanabus.github.io/fa22-cse110-lab3)
