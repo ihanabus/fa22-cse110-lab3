@@ -1,1 +1,8 @@
-/* My external CSS file */
+/* my external CSS file */
+h1 {color: rgb(10,10,100);}
+h2 {color: #6495ED;}
+h3 {color: hsl(200, 100%, 50%);}
+
+#meeting-info {         /* applying style to div id */
+    font-size: 20px;    
+}
