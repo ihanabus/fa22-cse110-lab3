@@ -14,28 +14,28 @@
     
     <body>
         <header>
-            <div class>Table of Contents</div>
-            <nav>
-                <ul>
-                    <li><a href="#attendance">Attendance</a></li>
-                    <li><a href="#agenda">Agenda</a></li>
-                    <li><a href="#unresolved-issues">Unresolved Issues</a></li>
-                </ul>
-            </nav>
+            <div class="toc">
+                Table of Contents
+                <nav>
+                    <ul>
+                        <li><a href="#attendance">Attendance</a></li>
+                        <li><a href="#agenda">Agenda</a></li>
+                        <li><a href="#unresolved-issues">Unresolved Issues</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <hr>
         
         <main>
-            
-            <h1>Conceptualization Phase 1 of <i>The Bigonator</i></h1>
-            <img 
-                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVldGluZyUyMGNsb3dufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
-                alt="meeting table"
-                height="250"
-            >
+
+            <div class="container">
+                <h1>Conceptualization Phase 1 of <i>The Project</i></h1>
+            </div>
             
             <div id="meeting-info">
+                
                 <p><span style="text-decoration:underline">Type of meeting</span><br>
                     Product Conceptualization
                 </p>
@@ -49,9 +49,11 @@
                 </p>
             </div>
 
-            <span>
-
-            </span>
+            <img 
+                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVldGluZyUyMGNsb3dufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
+                alt="meeting table"
+                height="250"
+            >
          
             <h2 id="attendance">Attendance</h2>
             <ul>
@@ -66,7 +68,7 @@
             <img 
                 src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGVib2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
                 alt="whiteboard"
-                height="250"
+                width="400"
             >
             <ol>
                 <li><input type="checkbox">Lay out the <b>strengths and weaknesses</b> of the product</li>
@@ -80,17 +82,21 @@
                 <source src="./images/recording.mp4" type="video/mp4">
             </video>
 
-            <figure>
-                <figcaption>Sound of John Doe tapping the desk during the meeting</figcaption>
-                <audio controls src="./images/audio.mp3">
-                </audio>
-            </figure>
+            <div class="audiobox">
+                <figure>
+                    <figcaption>
+                        <div class="spacing">Sound of John Doe tapping the desk during the meeting</div>
+                    </figcaption>
+                    <div class="spacing"><audio controls src="./images/audio.mp3"></div>
+                    </audio>
+                </figure>
 
-            <details>
-                <summary>Audio Transcription</summary>
-                *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap* <br>
-                *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*
-            </details>
+                <details>
+                    <summary>Audio Transcription</summary>
+                    *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap* <br>
+                    *tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*,*tap*
+                </details>
+            </div>
 
             <h2 id="unresolved-issues">Unresolved Issues</h2>
 
@@ -125,7 +131,7 @@
             <h2>Survey</h2>
             <form action="#">
                 <fieldset>
-                    <legend>Do we change the product name? (currently <i>The Bigonator</i>)</legend>
+                    <legend>Do we change the product name? (currently <i>The Project</i>)</legend>
                     <input type="checkbox" id="chbx" name="agree" value="change">
                     <label for="chbx">Yes, we need to change it</label>
                 </fieldset>
