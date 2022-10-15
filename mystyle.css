@@ -1,5 +1,6 @@
 /* my external CSS file */
 h1 {
+    font-family: fuzzybubbles;
     color: rgb(10,10,100);
     text-align: center;
     text-decoration: underline overline 0.1cm;
@@ -152,4 +153,10 @@ button:active {
     .collapse {
         display: none;
     }
+}
+
+/* third-party font */
+@font-face {
+    font-family: "fuzzybubbles";
+    src: url(./files/FuzzyBubbles-Regular.ttf)
 }
