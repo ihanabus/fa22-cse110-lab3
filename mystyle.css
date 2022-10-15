@@ -87,6 +87,7 @@ p {
     margin: 5px 5px 5px 5px;
 }
 
+/* psuedo-class selector */
 button:hover {
     background-color: red;
     color: white;
@@ -141,6 +142,7 @@ button:active {
      
 }
 
+/* selector list */
 .item-a,
 .item-b,
 .item-c,
@@ -159,4 +161,39 @@ button:active {
 @font-face {
     font-family: "fuzzybubbles";
     src: url(./files/FuzzyBubbles-Regular.ttf)
+}
+
+/* universal selector */
+div * {
+    background-color: lightcoral;
+}
+
+/* attribute selector */
+a {
+    color: green;
+}
+
+/* descendant combinator */
+li li {
+    text-transform: lowercase;
+}
+
+/* child combinator */
+details >  span {
+    text-transform: uppercase;
+}
+
+/* general sibling combinator */
+span ~ code {
+    text-transform: uppercase;
+}
+
+/* adjacent sibling combinator */
+li:first-of-type + li {
+    font-weight: bold;
+}
+
+/* combining two selectors */
+p.address {
+    text-transform: uppercase;
 }
